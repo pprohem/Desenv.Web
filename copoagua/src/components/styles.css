@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Inter&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Bebas Neue', cursive;
+    /* background-color: #00009C; */
+    background-image: url(https://medicainstitute.com/wp-content/uploads/2017/10/blue-gradient-background-6517.jpeg);
+    background-repeat: no-repeat;
+   
+}
+.App{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: #00009C; */
+    flex-direction: row;
+    background-image: url(/copoagua/src/assets/img/bg.jpeg);
+}
+img {
+ 
+    height: 350px;
+    border-radius: 50px;
+}
+
+.inputs {
+    width: 30% ;
+    height: 80% ;
+    /* background-color: rgb(204, 108, 17); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #C6EDD0;
+    }
+
+.texto{
+width: 50% ;
+height: 80% ;
+/* background-color: azure; */
+border: solid 3px #C6EDD0 ;
+border-radius: 6px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+color: #C6EDD0;
+padding-bottom: 10px;
+
+}
+
+
+
+input{
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+    background-color: #C6EDD0;
+    color: #00009C;
+    border: #030200;
+    border-radius: 6px;
+}
+
+button {
+    
+    border-radius: 5px;
+    color: #030200;
+    background-color:#C6EDD0;
+    border-color: #00009C;
+    font-family: 'Bebas Neue', cursive;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    
+}
+
+input{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.qtdCopos{
+    font-size: 70px;
+    color: #C6EDD0;
+}
+
+.totalCopos{
+    font-size: 60px;
+    color:#00009C ;
+    justify-content: center;
+    align-items: center;
+    color: #C6EDD0;
+}
+
+h3 {
+    font-size: 30px;
+    border: 1px, black;
+}
+
